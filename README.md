@@ -1,25 +1,25 @@
 # [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) AltaCV - One Page LaTeX CV [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
 
-v1.2 (01 Genuary 2024) by Emanuele Seminara
+v1.3 (20 Genuary 2024) by Emanuele Seminara
 
 [For the italian version Click Here](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ITA)
 ## Intro
 
-This repo is to give you, LaTeX lover, a cool idea for a resume.
-You can use this template to create in few minutes your own personal cv.
+This repo is meant to give you, LaTeX lover, a cool idea for a resume.
+You can use this template to create your own personal CV in few minutes.
 
-Below you can fine a selection of point to follow to personalize your cv, have fun.
+Below you can find a selection of point to follow to customize your CV, have fun.
 For any question you can write me at [seminara.emanuele96@gmail.com](mailto:seminara.emanuele96@gmail.com).
 
 You can also find me on:
 
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/LinkedIn_icon_2x20.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/Instagram_icon_20x20.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/pulsante_e_20x20.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/pulsante_tech_fusion_20x20.png?raw=true)](https://tech-fusion.it/)
+[![LinkedIn](https://github.com/EmanueleSeminara/images/blob/main/icon_square_linkedin_50.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/)
+[![Instagram](https://github.com/EmanueleSeminara/images/blob/main/icon_square_instagram_50.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
+[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_emanueleseminara_50.png?raw=true)](https://emanueleseminara.it/)
+[![tech-fusion.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_tech-fusion_50.png?raw=true)](https://tech-fusion.it/)
 
 ## Resume Look
-![Screenshot 2023-10-07 alle 15 01 09](Emanuele_Seminara_CV_ENG.jpg)
+![Screenshot_CV](Emanuele_Seminara_CV_ENG.jpg)
 
 ## Editor
 In case you don't know LaTeX, don't worry, you can use [Overleaf](https://overleaf.com), it is a cool online free editor,
@@ -27,7 +27,7 @@ just create an account, create a new project and load the files inside this repo
 
 To have the files on your pc just clone this repo:
 
-1) select the location where you want to store the file in your terminal
+1) select the location where you want to store the files in your terminal
 
    ```bash
    cd Projects/resume
@@ -39,7 +39,7 @@ To have the files on your pc just clone this repo:
    git clone https://github.com/EmanueleSeminara/LaTeX_resume.git
    ```
 
-After you have loaded the files you will need only to change the content of the files in order to write whatever you want in your resume.
+After you have loaded the files you will need only to change the file's contents in order to write whatever you want in your resume.
 It is really intuitive, in case you need more info on what to modify you can check the following sections.
 
 ## Requirements and Compilation
@@ -54,7 +54,7 @@ It is really intuitive, in case you need more info on what to modify you can che
 * However if you're using `academicons`, you _must_ use either XeLaTeX or LuaLaTeX. If the doc then compiles but the icons don't show up in the output PDF, try compiling with LuaLaTeX instead.
 * The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) font.
 
-## Donations [![Screen Grafico Entrate Uscite](https://github.com/EmanueleSeminara/images/blob/main/buy-me-a-coffee-logo-20x29.png?raw=true)](https://www.buymeacoffee.com/emanueleseminara)
+## Donations
 The code is here for you to be read, edited, modified, reused, for free, do whatever you want!
 However, if you'd like to offer me a coffee or a beer, then cheers! =D
 
