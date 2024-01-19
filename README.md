@@ -1,6 +1,6 @@
 # [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) AltaCV - CV in LaTeX a Singola Pagina [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
 
-v1.2 (01 Gennaio 2024) di Emanuele Seminara
+v1.3 (20 Gennaio 2024) di Emanuele Seminara
 
 [Per la versione inglese Clicca Qui](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ENG)
 ## Introduzione
@@ -13,13 +13,13 @@ Per qualsiasi domanda puoi scrivermi a [seminara.emanuele96@gmail.com](mailto:se
 
 Puoi trovarmi anche su:
 
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/LinkedIn_icon_2x20.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/Instagram_icon_20x20.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/pulsante_e_20x20.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
-[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/pulsante_tech_fusion_20x20.png?raw=true)](https://tech-fusion.it/)
+[![LinkedIn](https://github.com/EmanueleSeminara/images/blob/main/icon_square_linkedin_50.png?raw=true)](https://www.linkedin.com/in/emanuele-seminara/)
+[![Instagram](https://github.com/EmanueleSeminara/images/blob/main/icon_square_instagram_50.png?raw=true)](https://www.instagram.com/emanuele_seminara/)
+[![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_emanueleseminara_50.png?raw=true)](https://emanueleseminara.it/)
+[![tech-fusion.it](https://github.com/EmanueleSeminara/images/blob/main/icon_square_tech-fusion_50.png?raw=true)](https://tech-fusion.it/)
 
 ## Aspetto del Curriculum
-![Screenshot 2023-10-07 alle 15 01 09](./Emanuele_Seminara_CV_ITA.jpg)
+![Screenshot_CV](./Emanuele_Seminara_CV_ITA.jpg)
 
 ## Editor
 Nel caso tu non conosca LaTeX, non preoccuparti, puoi utilizzare [Overleaf](https://overleaf.com), un editor online gratuito e fantastico,
@@ -54,8 +54,8 @@ Dopo aver caricato i file, dovrai solo modificare il contenuto dei file per scri
 * Tuttavia, se stai utilizzando `academicons`, _devi_ usare XeLaTeX o LuaLaTeX. Se il documento viene compilato ma le icone non appaiono nel PDF finale, prova a compilare con LuaLaTeX invece.
 * Negli esempi qui mostrati viene utilizzato il carattere [Lato](http://www.latofonts.com/lato-free-fonts/).
 
-## Donazioni [![Screen Grafico Entrate Uscite](https://github.com/EmanueleSeminara/images/blob/main/buy-me-a-coffee-logo-20x29.png?raw=true)](https://www.buymeacoffee.com/emanueleseminara)
+## Donazioni
 Il codice è qui per essere letto, modificato, adattato, riutilizzato, gratuitamente, fai quello che vuoi!
 Tuttavia, se desideri offrirmi un caffè o una birra, allora cin cin! =D
 
-[![QR](https://github.com/EmanueleSeminara/images/blob/main/bmc-button_small2.png?raw=true)](https://www.buymeacoffee.com/emanueleseminara)
+[![button Buy me a coffee](https://github.com/EmanueleSeminara/images/blob/main/bmc-button_small2.png?raw=true)](https://www.buymeacoffee.com/emanueleseminara)
