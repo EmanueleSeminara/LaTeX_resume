@@ -1,0 +1,230 @@
+%-------------------------
+% Rover Resume - Star Template
+% Link: https://github.com/subidit/rover-resume
+%
+% CUSTOM COMMANDS \aux{} and \rside{} for part formatting
+% eg. \subsection{Company Name \aux{Designation} \rside{Duration}}
+% Double lined titles with \subsection{} and \subsubsection{}
+% \linkicon gives external link icon
+%-------------------------
+
+\documentclass[11pt]{article}
+
+
+\usepackage[sfdefault,semibold,lf]{FiraSans}
+\usepackage[a4paper,margin=1in]{geometry}
+
+\usepackage{xcolor}
+\definecolor{accent}{HTML}{141E61}
+
+\newcommand{\linkicon}{
+  \color{gray}{\footnotesize\raisebox{1pt}{\faIcon{external-link-alt}}}
+}
+
+\setcounter{secnumdepth}{0}
+\pdfgentounicode=1
+
+
+%====== LIST FORMATTING ======
+\usepackage{enumitem}
+\setlist[itemize]{nosep, left=0pt .. 1.5em}
+\setlist[enumerate]{left=0pt..1.5em}
+\setlist[description]{itemsep=0pt}
+
+
+%====== TITLE FORMATTING ======
+\usepackage{xhfill}
+\usepackage{soul}
+\newcommand{\midrule}[1]{
+  \leavevmode
+  \xrfill[.5ex]{1pt}[accent]~\so{#1}~\xrfill[.5ex]{1pt}[accent]
+}
+
+\usepackage{titlesec}
+\titlespacing{\section}{0pt}{*4}{*1}
+\titlespacing{\subsection}{0pt}{*3}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\large\bfseries\uppercase}{}{}{\midrule}
+\titleformat*{\subsection}{\large\bfseries\scshape}
+
+
+%====== CUSTOM COMMANDS ======
+\newcommand{\aux}[1]{
+  $|$ \space {\normalfont\itshape #1}%
+}
+
+\newcommand{\rside}[1]{
+  \hfill {\normalfont\color{accent} #1}%
+}
+
+
+%====== FOOTER ======
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+
+% Replace 'Star Rover' with your name in next line
+\fancyfoot[C]{\small\color{gray} Emanuele Seminara -- Page \thepage\ of \pageref*{LastPage}}
+
+% \pagestyle{empty} 
+% uncomment previous line to hide page numbering
+
+
+%====== PACKAGES ======
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\usepackage[bookmarks=false,hidelinks]{hyperref}
+
+
+%====== FINISH PREAMBLE ======
+
+%====== DOCUMENT STARTS HERE ======
+
+\begin{document}
+
+%====== BANNER ======
+
+\begin{center}
+  {
+    \fontsize{36}{12} 
+    \fontseries{heavy}\selectfont
+    \color{accent} 
+    Emanuele Seminara % YOUR NAME HERE
+  } \\ \medskip
+
+  % {\color{gray}{\faHome}} 1 infinite loop, CA \quad
+
+  \href{tel:+393204854761}{{\color{gray}{\faPhone}} +39 320 485 4761} \quad
+  \href{mailto:seminara.emanuele96@gmail.com}{{\color{gray}{\faEnvelope}} seminara.emanuele96@gmail.com} \quad 
+  \href{https://github.com/EmanueleSeminara}{{\color{gray}{\faGithub}} EmanueleSeminara} \quad \quad \quad
+  \href{https://www.linkedin.com/in/emanuele-seminara/}{{\color{gray}{\faLinkedin}} emanuele-seminara} \quad
+  \href{https://emanueleseminara.it/}{{\color{gray}{\faLink}} emanueleseminara.it} 
+\end{center}
+
+%====== BANNER END ======
+
+
+\section{Chi sono}
+%==========
+\noindent È un piacere presentarmi: sono \textbf{Emanuele}, un \textbf{Ingegnere Informatico} con una passione innata per la \textbf{tecnologia} e i \textbf{computer}. Durante i miei studi, ho approfondito le mie competenze nello \textbf{sviluppo software} e sviluppato un forte interesse per la \textbf{cybersecurity}.  
+
+\noindent Attualmente lavoro come \textbf{Full Stack Developer} presso \href{https://www.elca.ch/}{\textbf{Elca Informatique SA}}, dove ho avuto l'opportunità di accrescere le mie competenze principalmente nello sviluppo \textbf{backend} con \textbf{Java} e \textbf{Spring}, focalizzandomi sulla progettazione di \textbf{architetture a microservizi} ottimizzate per il cloud. Inoltre, ho ampliato le mie conoscenze in ambito \textbf{DevOps}, occupandomi della creazione e gestione degli ambienti di sviluppo e produzione, principalmente sulla piattaforma \textbf{Azure}, e della gestione delle pipeline CI/CD con \textbf{GitHub Actions}.  
+
+\section{Istruzione}
+%==========
+\subsection{Università degli Studi di Palermo \aux{Ingegneria Informatica} \rside{2018 -- 2021}}
+\begin{itemize}
+  \item Calcolatori Elettronici C.I.
+  \item Basi di Dati e Sistemi Informativi
+  \item Algoritmi e Strutture Dati
+  \item Programmazione Web e Mobile
+  \item Ingegneria del Software
+\end{itemize}
+
+
+\section{Esperienze}
+%==========
+\subsection{Elca Informatique SA \rside{Palermo}}
+\subsubsection{Full Stack Developer \rside{Apr 2024 -- Ora}}
+\begin{itemize}
+  \item \textbf{Sviluppo di un Sistema di Prenotazione:} Ho contribuito allo sviluppo di un sistema di prenotazione utilizzando \textbf{Angular} per il frontend e \textbf{Spring} per il backend. Ho creato nuovi componenti per il frontend, gestito l'audit e generato report Excel nel backend. Inoltre, ho sviluppato test frontend con \textbf{Jest}, partecipato all'implementazione di test end-to-end con \textbf{Cypress} e migliorato le pipeline DevOps, passando da \textbf{Jenkins} a \textbf{GitHub Actions}.
+  
+  \item \textbf{Sistema di Gestione Pensioni Svizzere:} Ho lavorato su un sistema di gestione delle pensioni svizzere con un backend in \textbf{Spring} e un frontend in \textbf{JavaFX}. Mi sono occupato principalmente della correzione di bug nel frontend e della creazione di test per il backend utilizzando \textbf{Mockito}.
+\end{itemize}
+
+\subsection{Progesi S.p.A. \rside{Roma}}
+\subsubsection{Software Developer \rside{Ago 2023 -- Mar 2024}}
+\begin{itemize}
+  \item \textbf{Progetto Software Militare:} Ho partecipato attivamente allo sviluppo di un'applicazione desktop in \textbf{Java} per operazioni militari terrestri, collaborando con il cliente principale, \textbf{Leonardo S.p.A.}. Il mio ruolo ha incluso la progettazione e l'implementazione di soluzioni software personalizzate per affrontare le sfide specifiche del contesto.
+  
+  \item \textbf{Installazione di Servizi Cloud Militari:} Ho supportato e configurato un avanzato \textbf{servizio cloud} in un centro militare, gestendo con attenzione \textbf{web server}, \textbf{proxy} e \textbf{database}. Mi sono assicurato che l'installazione soddisfacesse pienamente le esigenze specifiche dell'ambiente militare.
+  
+  Queste esperienze hanno arricchito significativamente le mie competenze professionali, dimostrando la mia capacità di affrontare sfide tecniche complesse e gestire progetti in contesti altamente sensibili.
+\end{itemize}
+
+\subsection{Join Business Management Consulting \rside{Roma}}
+\subsubsection{Cyber Security Analyst \rside{Mag 2022 -- Ago 2023}}
+\begin{itemize}
+  \item \textbf{Analisi delle Applicazioni Bancarie:} Ho condotto un'analisi delle applicazioni di un noto gruppo bancario, inventariando quelle interne ed esterne e valutando la conformità degli accessi logici alle politiche aziendali. Gestendo il progetto in autonomia, ho migliorato le mie competenze in \textbf{Excel} e \textbf{PowerPoint} attraverso report periodici e presentazioni.
+  
+  \item \textbf{Monitoraggio della Sicurezza:} Ho eseguito analisi quotidiane dei log di \textbf{Netskope} per rilevare accessi anomali e supportato i team \textbf{SCC} e \textbf{SOC} nella gestione della sicurezza.
+\end{itemize}
+
+\subsection{Solving Team \rside{Roma}}
+\subsubsection{Corso Full Stack Developer \rside{Feb 2022 -- Mag 2022}}
+\begin{itemize}
+  \item Ho partecipato a un corso di sviluppo Full Stack organizzato dall'azienda. Il corso è iniziato con concetti di \textbf{Java} che avevo già affrontato all'università e si è concentrato sulla realizzazione di un backend monolitico in \textbf{Spring}, implementando funzionalità \textbf{CRUD} e gestione utenti. Inoltre, siamo stati introdotti allo sviluppo frontend con \textbf{Angular}, acquisendo esperienza pratica nella creazione e integrazione di interfacce utente.  
+
+  Durante il corso ho anche esplorato concetti di \textbf{DevOps}, compreso l'uso di \textbf{Docker}.  
+  Questa esperienza mi ha fornito una solida base nello sviluppo sia \textbf{backend} che \textbf{frontend}, oltre a una comprensione delle pratiche DevOps.
+\end{itemize}
+
+
+\section{Competenze}
+%===============
+\begin{description}
+  \item[Tecniche]  
+    Competente in \textbf{Java}, \textbf{Python}, \textbf{C}, \textbf{JavaScript}, \textbf{TypeScript}, \textbf{SQL} e \textbf{Bash}.  
+    Esperienza con \textbf{Spring Boot}, \textbf{Node.js} e \textbf{Angular}.  
+    Abile nella progettazione di \textbf{architetture a microservizi}, \textbf{REST API} e soluzioni \textbf{ottimizzate per il cloud}.  
+    Conoscenza delle pratiche \textbf{DevOps}, tra cui \textbf{Docker}, \textbf{Kubernetes}, \textbf{GitHub Actions}, \textbf{Azure DevOps} e automazione \textbf{CI/CD}.  
+    Esperienza con database \textbf{PostgreSQL} e \textbf{MySQL}.  
+    Familiarità con \textbf{amministrazione Linux}, \textbf{sicurezza di rete} e \textbf{penetration testing}.  
+
+  \item[Lingue]  
+    \textbf{Italiano}: Madrelingua.  
+    \textbf{Inglese}: B2 (conoscenza professionale).  
+
+  \item[Interessi]  
+    Appassionato di \textbf{cybersecurity}, \textbf{sviluppo open-source} e \textbf{self-hosting}.  
+    Nel tempo libero, mi dedico alla creazione di progetti con il mio gruppo di amici e allo sviluppo di programmi personali per ottimizzare la mia vita quotidiana. Inoltre, ho una passione per la \textbf{numismatica} e trovo grande soddisfazione negli sport di squadra, come il \textbf{calcio}.  
+\end{description}
+
+
+
+
+% \section{Certifications}
+% %=======================
+% \begin{enumerate}[label=\null, left=0pt..0pt, itemsep=0pt]
+%   \item Some programming bootcamp, Location. \rside{2023}
+%   \item Forbes Top 15 Procrastinators under 15. \rside{2022}
+%   \item Perticipation award for attending workshop. \rside{2021}
+% \end{enumerate}
+
+
+% \section{Publications}
+% %=====================
+% \begin{enumerate}
+%   \item A. Vaswani et al., “Attention is All you Need,” arXiv (Cornell University), vol. 30, pp. 5998 – 6008, Jun. 2017, [Online]. Available: \url{https://arxiv.org/pdf/1706.03762v5}
+%   \item C. Darwin and J. Murray, \textit{On the origin of species by means of natural selection, or, The preservation of favoured races in the struggle for life.} 1859. doi: 10.5962/bhl.title.82303.
+% \end{enumerate}
+
+
+% \section{Awards}
+% %===============
+% \begin{description}
+%   \item [2023] Some programming bootcamp, Location.
+%   \item [2022] Forbes Top 15 Procrastinators under 15.
+%   \item [2021] Conducted workshop on family planning by abstainance in SomePlace.
+% \end{description}
+
+
+% \section{Projects}
+% %=================
+% \subsection{Lunar Rover Project \aux{\href{https://robotics.nasa.gov/lmr/}{Link \linkicon}} \rside{2012 -- 13}}
+% \begin{itemize}
+%   \item LIDAR array, GPS, Variable FOV camera, Python, C/C++
+%   \item Designed the rover to be modular, reconfigurable for sensor systems, handle science payloads, storage space, surplus resources, and robotics addons. % These modules shall be supported by centralized power and data ports. 
+% \end{itemize}
+
+% \subsection{Mars Rover \aux{\href{https://science.nasa.gov/mission/mars-exploration-rovers-spirit-and-opportunity/}{Project link \linkicon}} \rside{Feb 2012}}
+% \begin{itemize}
+%   \item Tech used, Language, Frameworks etc.
+%   \item Implemented ABC feature
+%   \item Optimised XYZ by 50\%
+% \end{itemize}
+
+
+\end{document}

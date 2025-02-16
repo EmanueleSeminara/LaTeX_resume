@@ -1,6 +1,6 @@
-# [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) AltaCV - CV in LaTeX a Singola Pagina [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
+# [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) Rover Resume - CV in LaTeX [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
 
-v1.3 (20 Gennaio 2024) di Emanuele Seminara
+v2.0 (16 Febbraio 2025) di Emanuele Seminara
 
 [Per la versione inglese Clicca Qui](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ENG)
 
@@ -9,7 +9,6 @@ v1.3 (20 Gennaio 2024) di Emanuele Seminara
 Questo repository è pensato per te, amante di LaTeX, per darti un'idea interessante per un curriculum vitae.
 Puoi utilizzare questo modello per creare in pochi minuti il tuo curriculum personale.
 
-Di seguito troverai una selezione di passi da seguire per personalizzare il tuo curriculum, divertiti.
 Per qualsiasi domanda puoi scrivermi a [seminara.emanuele96@gmail.com](mailto:seminara.emanuele96@gmail.com).
 
 Puoi trovarmi anche su:
@@ -20,7 +19,8 @@ Puoi trovarmi anche su:
 
 ## Aspetto del Curriculum
 
-![Screenshot_CV](./Emanuele_Seminara_CV_ITA.jpg)
+![Screenshot_CV](./Emanuele_Seminara_CV_ITA-0.jpg)
+![Screenshot_CV](./Emanuele_Seminara_CV_ITA-1.jpg)
 
 ## Editor
 
@@ -43,18 +43,6 @@ Per avere i file sul tuo PC, clona semplicemente questo repository:
 
 Dopo aver caricato i file, dovrai solo modificare il contenuto dei file per scrivere ciò che desideri nel tuo curriculum.
 È davvero intuitivo, nel caso tu abbia bisogno di ulteriori informazioni su cosa modificare, puoi consultare le sezioni seguenti.
-
-## Requisiti e Compilazione
-
-- Alla riga 76 di main.tex puoi inserire le tue informazioni personali.
-- page1sidebar.tex contiene il codice per la parte destra del curriculum.
-- Ricorda di sostituire l'immagine con la tua foto e utilizza un formato png.
-- Se desideri cambiare i colori, vai alla riga 48 di main.tex.
-- AltaCV utilizza [`fontawesome`](http://www.ctan.org/pkg/fontawesome) e [`academicons`](http://www.ctan.org/pkg/academicons); sono inclusi sia in TeX Live 2016 che in MikTeX 2.9.
-- Il caricamento di `academicons` è facoltativo: attivalo aggiungendo l'opzione `academicons` a `\documentclass`.
-- Ora può essere compilato con pdflatex, XeLaTeX e LuaLaTeX!
-- Tuttavia, se stai utilizzando `academicons`, _devi_ usare XeLaTeX o LuaLaTeX. Se il documento viene compilato ma le icone non appaiono nel PDF finale, prova a compilare con LuaLaTeX invece.
-- Negli esempi qui mostrati viene utilizzato il carattere [Lato](http://www.latofonts.com/lato-free-fonts/).
 
 ## Donazioni
 
