@@ -1,6 +1,6 @@
-# [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) AltaCV - One Page LaTeX CV [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
+# [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) Rover Resume - LaTeX CV [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
 
-v1.3 (20 Genuary 2024) by Emanuele Seminara
+v2.0 (16 February 2025) by Emanuele Seminara
 
 [For the italian version Click Here](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ITA)
 
@@ -9,7 +9,6 @@ v1.3 (20 Genuary 2024) by Emanuele Seminara
 This repo is meant to give you, LaTeX lover, a cool idea for a resume.
 You can use this template to create your own personal CV in few minutes.
 
-Below you can find a selection of point to follow to customize your CV, have fun.
 For any question you can write me at [seminara.emanuele96@gmail.com](mailto:seminara.emanuele96@gmail.com).
 
 You can also find me on:
@@ -20,7 +19,8 @@ You can also find me on:
 
 ## Resume Look
 
-![Screenshot_CV](Emanuele_Seminara_CV_ENG.jpg)
+![Screenshot_CV](Emanuele_Seminara_CV_ENG-0.jpg)
+![Screenshot_CV](Emanuele_Seminara_CV_ENG-1.jpg)
 
 ## Editor
 
@@ -42,19 +42,6 @@ To have the files on your pc just clone this repo:
    ```
 
 After you have loaded the files you will need only to change the file's contents in order to write whatever you want in your resume.
-It is really intuitive, in case you need more info on what to modify you can check the following sections.
-
-## Requirements and Compilation
-
-- At line 76 of main you can insert your personal info
-- page1sidebar.tex contains the code for the right part of the cv
-- remember to substitute the image with your photo and use a png format
-- If you would like to change the colors go at line 48 of main.tex
-- AltaCV uses [`fontawesome`](http://www.ctan.org/pkg/fontawesome) and [`academicons`](http://www.ctan.org/pkg/academicons); they're included in both TeX Live 2016 and MikTeX 2.9.
-- Loading `academicons` is optional: enable it by adding the `academicons` option to `\documentclass`.
-- Can now be compiled with pdflatex, XeLaTeX and LuaLaTeX!
-- However if you're using `academicons`, you _must_ use either XeLaTeX or LuaLaTeX. If the doc then compiles but the icons don't show up in the output PDF, try compiling with LuaLaTeX instead.
-- The samples here use the [Lato](http://www.latofonts.com/lato-free-fonts/) font.
 
 ## Donations
 
