@@ -9,3 +9,4 @@
 *.xml
 *.gz
 main.pdf
+.DS_Store
