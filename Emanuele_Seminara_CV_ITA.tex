@@ -9,7 +9,8 @@
 %-------------------------
 
 \documentclass[11pt]{article}
-
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
 
 \usepackage[sfdefault,semibold,lf]{FiraSans}
 \usepackage[a4paper,margin=1in]{geometry}
@@ -102,6 +103,7 @@ Emanuele Seminara -- Page \thepage\ of \pageref*{LastPage}}
   \href{tel:+393204854761}{{\color{gray}{\faPhone}} +39 320 485 4761} \quad
   \href{mailto:seminara.emanuele96@gmail.com}{{\color{gray}{\faEnvelope}} seminara.emanuele96@gmail.com} \quad 
   \href{https://github.com/EmanueleSeminara}{{\color{gray}{\faGithub}} EmanueleSeminara} \quad \quad \quad \quad
+  {\color{gray}{\faHome}} Palermo, Italia \quad
   \href{https://www.linkedin.com/in/emanuele-seminara/}{{\color{gray}{\faLinkedin}} emanuele-seminara} \quad
   \href{https://emanueleseminara.it/}{{\color{gray}{\faLink}} emanueleseminara.it} 
 \end{center}
@@ -111,81 +113,67 @@ Emanuele Seminara -- Page \thepage\ of \pageref*{LastPage}}
 
 \section{Chi sono}
 %==========
-\noindent È un piacere presentarmi: sono \textbf{Emanuele}, un \textbf{Ingegnere Informatico} con una passione innata per la \textbf{tecnologia} e i \textbf{computer}. Durante i miei studi, ho approfondito le mie competenze nello \textbf{sviluppo software} e sviluppato un forte interesse per la \textbf{cybersecurity}.  
-
-\noindent Attualmente lavoro come \textbf{Full Stack Developer} presso \href{https://www.elca.ch/}{\textbf{Elca Informatique SA}}, dove sto avendo l'opportunità di accrescere le mie competenze principalmente nello sviluppo \textbf{backend} con \textbf{Java} e \textbf{Spring}, focalizzandomi sulla progettazione di \textbf{architetture a microservizi} ottimizzate per il cloud. Inoltre, sto ampliando le mie conoscenze in ambito \textbf{DevOps}, occupandomi della creazione e gestione degli ambienti di sviluppo e produzione, principalmente sulla piattaforma \textbf{Azure}, e della gestione delle pipeline CI/CD con \textbf{GitHub Actions}.  
-
-\section{Istruzione}
-%==========
-\subsection{Università degli Studi di Palermo \aux{Ingegneria Informatica} \rside{2018 -- 2021}}
-\begin{itemize}
-  \item Calcolatori Elettronici C.I.
-  \item Basi di Dati e Sistemi Informativi
-  \item Algoritmi e Strutture Dati
-  \item Programmazione Web e Mobile
-  \item Ingegneria del Software
-\end{itemize}
-
+\noindent \textbf{Ingegnere Informatico} con oltre \textbf{4 anni di esperienza professionale nell'IT}, di cui \textbf{3 nello sviluppo software} come \textbf{Full Stack Developer}, dal backend \textbf{Java/Spring} alle pipeline dati in \textbf{Python}. Esperienza su architetture a microservizi, piattaforme dati (\textbf{MongoDB}, \textbf{Kafka}) e pratiche \textbf{DevOps} su \textbf{Azure}, dalla gestione degli ambienti alle pipeline CI/CD. Background in \textbf{cybersecurity} e ideatore del progetto vincitore dell'hackathon interno aziendale, un portale HR basato su \textbf{AI}.
 
 \section{Esperienze}
 %==========
 \subsection{Elca Informatique SA \rside{Palermo}}
-\subsubsection{Full Stack Developer \rside{Apr 2024 -- Ora}}
+\subsubsection{Full Stack Developer \aux{Associate Engineer $\rightarrow$ Engineer} \rside{Apr 2024 -- Ora}}
 \begin{itemize}
-  \item \textbf{Sviluppo di un Sistema di Prenotazione:} Ho contribuito allo sviluppo di un sistema di prenotazione utilizzando \textbf{Angular} per il frontend e \textbf{Spring} per il backend. Ho creato nuovi componenti per il frontend, gestito l'audit e generato report Excel nel backend. Inoltre, ho sviluppato test frontend con \textbf{Jest}, partecipato all'implementazione di test end-to-end con \textbf{Cypress} e migliorato le pipeline DevOps, passando da \textbf{Jenkins} a \textbf{GitHub Actions}.
-  
-  \item \textbf{Sistema di Gestione Pensioni Svizzere:} Ho lavorato su un sistema di gestione delle pensioni svizzere con un backend in \textbf{Spring} e un frontend in \textbf{JavaFX}. Mi sono occupato principalmente della correzione di bug nel frontend e della creazione di test per il backend utilizzando \textbf{Mockito}.
+  \item \textbf{Piattaforma di Data Hub (Progetto Attuale):} Contributo allo sviluppo di un data hub che centralizza e ridistribuisce i dati tra i diversi sistemi aziendali di un cliente assicurativo. Sviluppo di pipeline \textbf{ETL} in \textbf{Python} e \textbf{Java} su un data layer basato su \textbf{MongoDB} con streaming \textbf{Kafka}, su infrastruttura \textbf{Azure}.
+  \item \textbf{Migrazione Sistema Gestionale:} Automazione della sincronizzazione dati tra il gestionale storico (progetti e ore) e il nuovo sistema \textbf{ERP} aziendale, nell'ambito di un processo di migrazione graduale, tramite script \textbf{Python} personalizzati.
+  \item \textbf{Hackathon Interno per l'Innovazione HR (Vincitore):} Ideazione del progetto, selezione del team e guida delle decisioni chiave su un portale HR basato su \textbf{AI} per screening dei CV, profilazione dei candidati e generazione automatica di test tecnici. Sviluppo del backend in \textbf{Python (FastAPI)}, delle REST API e della pipeline CI/CD; presentazione del progetto (demo live, poi un video narrato per la finale aziendale); \textbf{primo posto} a livello di ufficio, poi a livello aziendale su tutte le sedi Elca.
+  \item \textbf{Sistema di Gestione Pensioni Svizzere:} Manutenzione e stabilizzazione di una suite di gestione pensionistica (backend \textbf{Spring}, frontend \textbf{JavaFX}) -- correzione bug e test backend con \textbf{Mockito}, con successiva estensione ad analisi dei task e supporto trasversale al team e ai business analyst.
+  \item \textbf{Sistema di Prenotazione Rifugi Alpini (Club Alpino Svizzero \aux{\href{https://www.hut-reservation.org}{Link \linkicon}}):} Sviluppo e manutenzione delle funzionalità core di una piattaforma multilingua di prenotazione, utilizzata in oltre \textbf{500 rifugi alpini} (premio Gold \textbf{"Best Software Projects 2025"}, categoria Cloud Native Solutions) -- frontend \textbf{Angular}, backend \textbf{Spring}. Realizzazione di nuovi componenti, gestione dell'audit e generazione report Excel; sviluppo di suite di test \textbf{Jest} e \textbf{Cypress}, test di performance con \textbf{JMeter}, valutazione di una migrazione da Docker a Buildpacks, e migrazione della pipeline CI/CD da \textbf{Jenkins} a \textbf{GitHub Actions}.
 \end{itemize}
 
 \subsection{Progesi S.p.A. \rside{Roma}}
 \subsubsection{Software Developer \rside{Ago 2023 -- Mar 2024}}
 \begin{itemize}
-  \item \textbf{Progetto Software Militare:} Ho partecipato attivamente allo sviluppo di un'applicazione desktop in \textbf{Java} per operazioni militari terrestri, collaborando con il cliente principale, \textbf{Leonardo S.p.A.}. Il mio ruolo ha incluso la progettazione e l'implementazione di soluzioni software personalizzate per affrontare le sfide specifiche del contesto.
-  
-  \item \textbf{Installazione di Servizi Cloud Militari:} Ho supportato e configurato un avanzato \textbf{servizio cloud} in un centro militare, gestendo con attenzione \textbf{web server}, \textbf{proxy} e \textbf{database}. Mi sono assicurato che l'installazione soddisfacesse pienamente le esigenze dell'ambiente militare.
-  
-  Queste esperienze hanno arricchito significativamente le mie competenze professionali, dimostrando la mia capacità di affrontare sfide tecniche complesse e gestire progetti in contesti altamente sensibili.
+  \item \textbf{Progetto Software Militare:} Sviluppo di un'applicazione desktop in \textbf{Java} per operazioni militari terrestri, in stretta collaborazione con il cliente principale, \textbf{Leonardo S.p.A.}; progettazione e implementazione di soluzioni software su misura per un contesto operativo altamente specialistico.
+  \item \textbf{Installazione di Servizi Cloud Militari:} Configurazione e supporto di un servizio cloud avanzato per un centro militare, gestendo \textbf{web server, proxy e database} end-to-end, nel rispetto dei rigidi requisiti di sicurezza e affidabilità del settore.
 \end{itemize}
 
 \subsection{Join Business Management Consulting \rside{Roma}}
 \subsubsection{Cyber Security Analyst \rside{Mag 2022 -- Ago 2023}}
 \begin{itemize}
-  \item \textbf{Analisi delle Applicazioni Bancarie:} Ho condotto un'analisi delle applicazioni di un noto gruppo bancario, inventariando quelle interne ed esterne e valutando la conformità degli accessi logici alle politiche aziendali. Gestendo il progetto in autonomia, ho migliorato le mie competenze in \textbf{Excel} e \textbf{PowerPoint} attraverso report periodici e presentazioni.
-  
-  \item \textbf{Monitoraggio della Sicurezza:} Ho eseguito analisi quotidiane dei log di \textbf{Netskope} per rilevare accessi anomali e supportato i team \textbf{SCC} e \textbf{SOC} nella gestione della sicurezza.
+  \item \textbf{Analisi delle Applicazioni Bancarie:} Gestione autonoma di un'analisi completa di conformità degli accessi logici sul portafoglio applicativo di un importante gruppo bancario, valutando applicazioni interne ed esterne rispetto alla policy di sicurezza aziendale; sviluppo di tool \textbf{Python} personalizzati con interfaccia grafica per automatizzare l'analisi, con reporting dei risultati tramite presentazioni periodiche in Excel/PowerPoint al management.
+  \item \textbf{Monitoraggio della Sicurezza:} Analisi quotidiana dei log \textbf{Netskope} per il rilevamento di accessi anomali, a supporto dei team \textbf{SCC} e \textbf{SOC} nella gestione degli incidenti di sicurezza.
 \end{itemize}
 
 \subsection{Solving Team \rside{Roma}}
 \subsubsection{Corso Full Stack Developer \rside{Feb 2022 -- Mag 2022}}
 \begin{itemize}
-  \item Ho partecipato a un corso di sviluppo Full Stack organizzato dall'azienda. Il corso è iniziato con concetti di \textbf{Java} che avevo già affrontato all'università e si è concentrato sulla realizzazione di un backend monolitico in \textbf{Spring}, implementando funzionalità \textbf{CRUD} e gestione utenti. Inoltre, siamo stati introdotti allo sviluppo frontend con \textbf{Angular}, acquisendo esperienza pratica nella creazione e integrazione di interfacce utente.  
-
-  Durante il corso ho anche esplorato concetti di \textbf{DevOps}, compreso l'uso di \textbf{Docker}.  
-  Questa esperienza mi ha fornito una solida base nello sviluppo sia \textbf{backend} che \textbf{frontend}, oltre a una comprensione delle pratiche DevOps.
+  \item Completamento di un percorso di formazione intensivo Full Stack Developer: realizzazione di un backend monolitico in \textbf{Spring} con funzionalità CRUD e gestione utenti, sviluppo di un frontend in \textbf{Angular}, ed esplorazione dei fondamentali \textbf{DevOps} incluso \textbf{Docker} -- basi tecniche su cui si fondano tutte le esperienze successive.
 \end{itemize}
 
+\section{Istruzione}
+%==========
+\subsection{Università degli Studi di Palermo}
+\subsubsection{Laurea Triennale in Ingegneria Informatica \rside{2018 -- 2021}}
+\vspace{1em}
 
 \section{Competenze}
 %===============
 \subsection{Tecniche}
 \begin{itemize}
-  \item Competente in \textbf{Java}, \textbf{Python}, \textbf{C}, \textbf{JavaScript}, \textbf{TypeScript}, \textbf{SQL} e \textbf{Bash}.  
-  \item Esperienza con \textbf{Spring Boot}, \textbf{Node.js} e \textbf{Angular}.  
-  \item Abile nella progettazione di \textbf{architetture a microservizi}, \textbf{REST API} e soluzioni \textbf{ottimizzate per il cloud}.  
-  \item Conoscenza delle pratiche \textbf{DevOps}, tra cui \textbf{Docker}, \textbf{Kubernetes}, \textbf{GitHub Actions}, \textbf{Azure DevOps} e automazione \textbf{CI/CD}.  
-  \item Esperienza con database \textbf{PostgreSQL} e \textbf{MySQL}.  
-  \item Familiarità con \textbf{amministrazione Linux}, \textbf{sicurezza di rete} e \textbf{penetration testing}. 
+  \item \textbf{Linguaggi:} Java, Python, TypeScript, JavaScript, SQL, Bash, C.
+  \item \textbf{Framework e Librerie:} Spring Boot, Angular, FastAPI.
+  \item \textbf{Dati e Messaggistica:} PostgreSQL, MySQL, MongoDB, Kafka.
+  \item \textbf{Cloud e DevOps:} Azure, Docker, Git, GitHub Actions, Azure DevOps, CI/CD, amministrazione Linux.
+  \item \textbf{Testing:} JUnit/Mockito, Jest, Cypress, JMeter.
+  \item \textbf{AI:} integrazione di LLM in applicazioni e automazioni via API, prompt engineering, deployment di modelli in locale; utilizzo quotidiano di strumenti di coding assistito (Claude Code, GitHub Copilot).
+  \item \textbf{Architetture e Metodologie:} microservizi, REST API, pipeline ETL, soluzioni cloud-native, lavoro in team Agile (daily, sprint planning).
 \end{itemize}
 
 \subsection{Lingue}
 \begin{itemize}
   \item \textbf{Italiano}: Madrelingua.  
-  \item \textbf{Inglese}: B2 (conoscenza professionale). 
+  \item \textbf{Inglese}: B1 (conoscenza intermedia).
 \end{itemize}
 
 \subsection{Interessi}
-\noindent Appassionato di \textbf{cybersecurity}, \textbf{sviluppo open-source} e \textbf{self-hosting}.  
-\noindent Nel tempo libero, mi dedico alla creazione di progetti con il mio gruppo di amici e allo sviluppo di programmi personali per ottimizzare la mia vita quotidiana. Inoltre, ho una passione per la \textbf{numismatica} e trovo grande soddisfazione negli sport di squadra, come il \textbf{calcio}.  
+\noindent Sviluppo di \textbf{progetti personali} e \textbf{open-source}, con particolare interesse per l'\textbf{automazione} e il \textbf{self-hosting} (infrastruttura domestica autogestita). Speaker al \textbf{Career Day} dell'Università di Palermo (2025), con presentazione aziendale e demo tecnica dal vivo. Nel tempo libero, \textbf{numismatica} e \textbf{calcio}.
 
 
 
