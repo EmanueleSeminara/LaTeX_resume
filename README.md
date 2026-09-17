@@ -1,6 +1,6 @@
 # [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/) Rover Resume - CV in LaTeX [![emanueleseminara.it](https://github.com/EmanueleSeminara/images/blob/main/logo_e_20x20.png?raw=true)](https://emanueleseminara.it/)
 
-v3.0 (17 Settembre 2026) di Emanuele Seminara
+v3.1 (17 Settembre 2026) di Emanuele Seminara
 
 [Per la versione inglese Clicca Qui](https://github.com/EmanueleSeminara/LaTeX_resume/tree/ENG)
 
